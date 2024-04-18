@@ -14,7 +14,7 @@ const About = () => {
         Empowering the African community through inclusive savings, providing
         exclusive futures for every individual.
       </h4>
-      <div className="flex flex-col md:flex-row items-center p-5 md:py-10 md:px-20 bg-hero-bg">
+      <div className="flex flex-col md:flex-row items-center p-5 md:py-10 md:px-20">
         <article className="text-black flex flex-col justify-around md:justify-around lg:h-[500px]">
           {aboutSource.map((element, index) => {
             return (

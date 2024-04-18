@@ -1,9 +1,13 @@
+"use client";
 
 import React from 'react'
+import Navbar from './components/Navbar';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <section className='bg-white text-black font-lexend'>
+        <Navbar />
+    </section>
   )
 }
 

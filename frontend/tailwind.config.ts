@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         lexend: ["Lexend", "sans-serif"],
+        jakarta: ["Plus Jakarta Sans", "sans-serif"]
       },
       colors: {
         'aqua':'#35F1CE',

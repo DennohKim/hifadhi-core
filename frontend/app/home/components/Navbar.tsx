@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div className="">
-      <div className="flex justify-between items-center p-3 text-white">
+      <div className="flex justify-between items-center p-3 md:px-20 text-white">
         <div className=" w-auto flex items-center">
           <Image src={HifadhiLogo} alt="atlas-logo" className="w-auto" />
         </div>

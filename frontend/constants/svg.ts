@@ -4,6 +4,7 @@ import WalletIcon from "@/public/svg/wallet.svg";
 import DocIcon from "@/public/svg/doc.svg";
 import CardIcon from "@/public/svg/wallet.svg";
 import AboutImg from "@/public/svg/about-img.svg";
+import RoadMapImg from "@/public/svg/roadmap.svg";
 
 export {
     HifadhiLogo,
@@ -11,5 +12,6 @@ export {
     WalletIcon,
     DocIcon,
     CardIcon,
-    AboutImg
+    AboutImg,
+    RoadMapImg,
 }

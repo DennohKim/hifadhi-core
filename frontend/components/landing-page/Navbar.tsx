@@ -39,8 +39,8 @@ const Navbar = () => {
             onClick={toggleMenu}
           />
           <ul className="flex flex-col sm:flex-row justify-around text-base font-DM text-black w-auto">
-            <a
-              href="#Home"
+            <Link
+              href="/"
               onClick={() => {
                 scrollRef.current?.scrollIntoView({
                   behavior: "smooth",
@@ -49,14 +49,15 @@ const Navbar = () => {
               className="my-2 mx-2 w-[100%] min-w-[100px] text-black hover:text-aqua hover:cursor-pointer "
             >
               Home
-            </a>
-            <a className="my-2 mx-2 w-[100%] min-w-[100px] text-black hover:text-aqua hover:cursor-pointer ">
+            </Link>
+            <Link href="/" className="my-2 mx-2 w-[100%] min-w-[100px] text-black hover:text-aqua hover:cursor-pointer ">
               Blogs
-            </a>
-            <a className="my-2 mx-2 w-[100%] min-w-[100px] text-black hover:text-aqua hover:cursor-pointer ">
+            </Link>
+            <Link href="/" className="my-2 mx-2 w-[100%] min-w-[100px] text-black hover:text-aqua hover:cursor-pointer ">
               Services
-            </a>
-            <a
+            </Link>
+            <Link
+            href="/"
               onClick={() => {
                 window.scrollBy({
                   top: 1200,
@@ -65,7 +66,7 @@ const Navbar = () => {
               className="my-2 mx-1 w-[100%] min-w-[100px] text-black hover:text-aqua hover:cursor-pointer "
             >
               About
-            </a>
+            </Link>
           </ul>
         </div>
 
@@ -111,7 +112,7 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex">
           <Link
-            href="/register"
+            href="/dashboard"
             className=" py-2 px-6 rounded-full border bg-aqua text-black font-semibold hover:bg-white hover:border-aqua hover:cursor-pointer"
           >
             Launch App

@@ -8,7 +8,7 @@ import Navbar from '@/components/landing-page/Navbar';
 
 const Home = () => {
   return (
-    <section className='bg-white text-black font-lexend'>
+    <section className='bg-neutral-bg text-black font-lexend'>
         <Navbar />
         <HeroSection />
         <About />

@@ -24,6 +24,7 @@ const config = {
       },
       colors: {
         'aqua':'#35F1CE',
+        'neutral-bg':'#F7FFFD',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

@@ -6,10 +6,27 @@ import { useAccount, useContractRead } from 'wagmi';
 import { SavingsPoolABI2, SavingsPoolAddress2 } from '@/constants/constants';
 import { PoolCard } from './pool-card';
 import { LoadingState } from '@/components/common/loading-state';
+import { gql, useQuery } from '@apollo/client';
+
+
+const GET_POOLS = gql`
+  query GetPools {
+    joinedPools {
+    id
+    poolId
+    participant
+    blockNumber
+  }
+  }
+`;
 
 const PoolList = () => {
   const [userAddress, setUserAddress] = useState('');
   const { address, isConnected } = useAccount();
+
+  const { loading, error, data } = useQuery(GET_POOLS);
+
+console.log('data', data);
 
   useEffect(() => {
     if (isConnected && address) {

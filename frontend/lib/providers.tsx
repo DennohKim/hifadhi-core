@@ -7,6 +7,7 @@ import { Alfajores, Celo } from '@celo/rainbowkit-celo/chains';
 import celoGroups from '@celo/rainbowkit-celo/lists';
 import { RainbowKitProvider, lightTheme } from '@rainbow-me/rainbowkit';
 import '@rainbow-me/rainbowkit/styles.css';
+import { ApolloClientProvider } from './apollo_provider';
 
 // import '@celo/react-celo/lib/styles.css';
 
@@ -30,6 +31,7 @@ const wagmiConfig = createConfig({
 });
 export default function Providers({ children }: PropsWithChildren) {
   return (
+
     <WagmiConfig config={wagmiConfig}>
       <RainbowKitProvider
         chains={chains}
@@ -41,7 +43,10 @@ export default function Providers({ children }: PropsWithChildren) {
           borderRadius: 'large',
         })}
       >
+        <ApolloClientProvider>
         {children}
+
+        </ApolloClientProvider>
       </RainbowKitProvider>
     </WagmiConfig>
   );

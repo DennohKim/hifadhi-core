@@ -10,12 +10,12 @@ import { gql, useQuery } from '@apollo/client';
 
 
 const GET_POOLS = gql`
-  query GetPools {
-    joinedPools {
+  query GetAllPools {
+    poolCreateds {
     id
     poolId
     participant
-    blockNumber
+    turnId
   }
   }
 `;

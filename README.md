@@ -1,6 +1,6 @@
 
 
-# Chamaa - Build With Celo 4 - MiniPay Hackathon
+# Hifadhi 
 ## By Dennis Kimathi | Ronnex Ondimu | Ibrahim Aziz
 
 ## Screenshot

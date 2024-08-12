@@ -5,6 +5,8 @@ import DocIcon from "@/public/svg/doc.svg";
 import CardIcon from "@/public/svg/wallet.svg";
 import AboutImg from "@/public/svg/about-img.svg";
 import RoadMapImg from "@/public/svg/roadmap.svg";
+import Logo from "@/public/img/hifadhi_logo_main.png";
+
 
 export {
     HifadhiLogo,
@@ -14,4 +16,5 @@ export {
     CardIcon,
     AboutImg,
     RoadMapImg,
+    Logo
 }

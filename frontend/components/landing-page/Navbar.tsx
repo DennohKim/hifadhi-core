@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { List, XCircle } from "@phosphor-icons/react";
-import { HifadhiLogo } from "@/constants/svg";
+import { HifadhiLogo, Logo } from "@/constants/svg";
 import Link from "next/link";
 import { useRef } from "react";
 
@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className="">
       <div className="flex justify-between items-center p-3 md:px-20 text-white">
         <div className=" w-auto flex items-center">
-          <Image src={HifadhiLogo} alt="atlas-logo" className="w-auto" />
+          <Image src={Logo} alt="atlas-logo" className="w-auto" width={50} height={50} />
         </div>
         <div className="block md:hidden">
           <List
@@ -111,10 +111,10 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex">
           <Link
-            href="/register"
+            href="https://social-saving-pool-bwc4-react-app.vercel.app/"
             className=" py-2 px-6 rounded-full border bg-aqua text-black font-semibold hover:bg-white hover:border-aqua hover:cursor-pointer"
           >
-            Launch App
+            Launch Beta App
           </Link>
         </div>
       </div>

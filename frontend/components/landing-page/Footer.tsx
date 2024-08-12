@@ -1,4 +1,4 @@
-import { HifadhiLogo } from "@/constants/svg";
+import { Logo } from "@/constants/svg";
 import {
   FacebookLogo,
   InstagramLogo,
@@ -13,11 +13,11 @@ const Footer = () => {
       <div className="container grid grid-cols-1 xsm:grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-4">
         <div className="flex flex-col space-y-4">
           <Image
-            src={HifadhiLogo}
+            src={Logo}
             alt="nexus-logo"
             className=""
-            width={100}
-            height={100}
+            width={60}
+            height={60}
           />
           <footer>
           Our Mission: To empower Africa with Micro savings technology, offering a secure alternative to traditional mobile money services.

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { HeroImg } from "@/constants/svg";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -13,9 +14,12 @@ const HeroSection = () => {
           Our Mission: To empower Africa with Micro savings technology, offering
           a secure alternative to traditional mobile money services.
         </h2>
-        <button className=" py-3 px-6 w-[150px] rounded-full border bg-aqua text-black font-semibold hover:bg-white hover:border-aqua hover:cursor-pointer">
-          Launch App
+        <Link href="https://social-saving-pool-bwc4-react-app.vercel.app/">
+        <button className=" py-3 px-6 w-[200px] rounded-full border bg-aqua text-black font-semibold hover:bg-white hover:border-aqua hover:cursor-pointer">
+          Launch Beta App
         </button>
+        </Link>
+       
       </article>
       <Image src={HeroImg} alt="nexus-logo" className="w-full md:w-[50%]" />
     </div>

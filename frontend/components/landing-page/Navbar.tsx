@@ -39,24 +39,8 @@ const Navbar = () => {
             onClick={toggleMenu}
           />
           <ul className="flex flex-col sm:flex-row justify-around text-base font-DM text-black w-auto">
-            <a
-              href="#Home"
-              onClick={() => {
-                scrollRef.current?.scrollIntoView({
-                  behavior: "smooth",
-                });
-              }}
-              className="my-2 mx-2 w-[100%] min-w-[100px] text-black hover:text-aqua hover:cursor-pointer "
-            >
-              Home
-            </a>
-            <a className="my-2 mx-2 w-[100%] min-w-[100px] text-black hover:text-aqua hover:cursor-pointer ">
-              Blogs
-            </a>
-            <a className="my-2 mx-2 w-[100%] min-w-[100px] text-black hover:text-aqua hover:cursor-pointer ">
-              Services
-            </a>
-            <a
+            
+            <li
               onClick={() => {
                 window.scrollBy({
                   top: 1200,
@@ -64,26 +48,31 @@ const Navbar = () => {
               }}
               className="my-2 mx-1 w-[100%] min-w-[100px] text-black hover:text-aqua hover:cursor-pointer "
             >
-              About
-            </a>
+              Features
+            </li>
+            <li className="my-2 mx-2 w-[100%] min-w-[100px] text-black hover:text-aqua hover:cursor-pointer ">
+              Roadmap
+            </li>
+            <li className="my-2 mx-2 w-[100%] min-w-[100px] text-black hover:text-aqua hover:cursor-pointer ">
+              Team
+            </li>
+         
           </ul>
         </div>
 
         <div className="hidden md:flex items-center">
           <ul className=" flex flex-col sm:flex-row justify-around text-base font-DM text-[#A2A2A2] w-auto">
-            <li className="mx-2 w-[100%] min-w-[100px] text-black hover:text-aqua hover:cursor-pointer ">
-              Home
-            </li>
+        
             <li
               onClick={() => {
                 window.scrollBy({
-                  top: 3000,
+                  top: 940,
                   behavior: "smooth",
                 });
               }}
               className="mx-2 w-[100%] min-w-[100px] text-black hover:text-aqua hover:cursor-pointer "
             >
-              Blogs
+              Features
             </li>
             <li
               onClick={() => {
@@ -94,18 +83,18 @@ const Navbar = () => {
               }}
               className="mx-2 w-[100%] min-w-[100px] text-black hover:text-aqua hover:cursor-pointer "
             >
-              Services
+              Roadmap
             </li>
             <li
               onClick={() => {
                 window.scrollBy({
-                  top: 940,
+                  top: 3000,
                   behavior: "smooth",
                 });
               }}
               className="mx-2 w-[100%] min-w-[100px] text-black hover:text-aqua hover:cursor-pointer "
             >
-              About
+              Team
             </li>
           </ul>
         </div>

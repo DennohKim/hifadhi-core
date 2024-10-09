@@ -15,7 +15,7 @@ export const teamSource = [
     title: "Blockchain Engineer | Backend Engineer",
   },
   {
-    img: "https://res.cloudinary.com/dqab6gg7d/image/upload/v1728479935/1622148223252_oyfxb2.jpg",
+    img: "https://res.cloudinary.com/dqab6gg7d/image/upload/v1728479935/1712424388793_vwfh3x.jpg",
     name: "Anthony Kimani",
     title: "Frontend Developer | UI Designer",
   },

@@ -3,20 +3,32 @@ import { CardIcon, DocIcon, WalletIcon } from "@/constants/svg";
 export const aboutSource = [
   {
     icon: WalletIcon,
-    title: "Social Savings Pools",
+    title: "Community-based savings",
     subtitle:
-      "Chamaa is a social savings pool where individuals come together to save collectively, fostering a sense of community and financial cooperation.",
+      "Chamaa offers a sense of belonging and mutual support.",
   },
   {
-    icon: DocIcon,
+    icon: WalletIcon,
     title: "Goal-Oriented Savings",
     subtitle:
-      "VunaVault encourages disciplined saving by allowing users to set specific savings goals. Achieving these goals unlocks exclusive benefits and rewards.",
+      "VunaVault helps individuals achieve specific financial objectives.",
   },
   {
     icon: CardIcon,
-    title: "Social Savings Pools",
+    title: "Financial education",
     subtitle:
-      "Users customize their insurance plans based on purpose, coverage length, and other factors. This product empowers users to protect against unforeseen circumstances on their terms",
+      "YouthSpark provides valuable insights for young people.",
+  },
+  {
+    icon: CardIcon,
+    title: "Customized insurance",
+    subtitle:
+      "Self-Set Insurance allows individuals to tailor their coverage to their needs.",
+  },
+  {
+    icon: CardIcon,
+    title: "Financial education",
+    subtitle:
+      "Self-Set Insurance allows individuals to tailor their coverage to their needs.",
   },
 ];
